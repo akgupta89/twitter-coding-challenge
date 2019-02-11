@@ -1,0 +1,22 @@
+{
+  "name": "validate_approvals",
+  "version": "1.0.0",
+  "description": "Validate ownership of files for approval",
+  "author": "",
+  "license": "MIT",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jasmine --config=tests/com/validator/support/jasmine.json"
+  },
+  "bin": {
+    "validate_approvals": "bin/validate_approvals"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.3.1"
+  }
+}
